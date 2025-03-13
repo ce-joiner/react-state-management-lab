@@ -14,3 +14,11 @@ li {
   border: whitesmoke 3px solid;
   border-radius: 8px;
 }
+
+.character-img {
+  width: 150px;  
+  height: 150px; 
+  object-fit: cover; /* Ensures cropping instead of stretching */
+  border-radius: 8px; 
+}
+
